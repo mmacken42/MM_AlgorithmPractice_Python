@@ -12,9 +12,9 @@ def two_sum(nums: list[int], target: int) -> list[int]:
     return []
 
 # tests
-print(two_sum([3,4,5,6], 7)) #[0,1]
-print(two_sum([4,5,6], 10)) #[0,2]
-print(two_sum([1,2,3,4], 8)) #[]
+print(two_sum([3,4,5,6], 7)) #correct answer prints [0,1]
+print(two_sum([4,5,6], 10)) #correct answer prints [0,2]
+print(two_sum([1,2,3,4], 8)) #correct answer prints []
 
 #this was a brute force solution, not ideal
 #nested for loops makes time complexity O(n^2)
